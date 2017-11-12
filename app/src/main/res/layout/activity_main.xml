@@ -41,6 +41,34 @@
             android:layout_height="wrap_content"
             android:text="@string/mandarCorreo"
             android:onClick="mandarCorreo"/>
+
+        <Button
+            android:id="@+id/button06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/busqueda"
+            android:onClick="busquedaWeb"/>
+
+        <Button
+            android:id="@+id/button07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialer"
+            android:onClick="iniciarDialer"/>
+
+        <Button
+            android:id="@+id/button08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/street"
+            android:onClick="streetView"/>
+
+        <Button
+            android:id="@+id/button09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compartir"
+            android:onClick="compartirCon"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
